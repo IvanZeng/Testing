@@ -22,6 +22,7 @@
 
 
 # Solution from Copilot (correct)
+# Big O time complexity: O(n)
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -57,6 +58,7 @@ class Solution(object):
 
     
 # Solution from ChatGPT (correct)
+# Big O time complexity: O(n)
 class Solution(object):
     def romanToInt(self, s):
         """

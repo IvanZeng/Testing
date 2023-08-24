@@ -20,6 +20,7 @@
 
 
 # Solution from Copilot (correct)
+# Big O time complexity: O(n^2)
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -35,6 +36,7 @@ class Solution(object):
 
        
 # Solution from ChatGPT (correct)
+# Big O time complexity: O(n)
 class Solution(object):
     def twoSum(self, nums, target):
         """

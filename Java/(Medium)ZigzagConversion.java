@@ -31,6 +31,7 @@
 
 
 // Solution from Copilot (correct)
+// Big O time complexity O(n)
 class Solution {
     public String convert(String s, int numRows) {
         if (numRows == 1) return s;
@@ -52,6 +53,7 @@ class Solution {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity O(n)
 class Solution {
     public String convert(String s, int numRows) {
         if (numRows == 1) {

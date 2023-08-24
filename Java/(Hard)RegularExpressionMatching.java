@@ -26,6 +26,7 @@
 
 
 //solution from Copilot (correct)
+//Big O time complexity O(n^2)
 class Solution {
     public boolean isMatch(String s, String p) {
         int m = s.length();
@@ -62,6 +63,7 @@ class Solution {
 
 
 //solution from ChatGPT (correct)
+//Big O time complexity O(n^2)
 class Solution {
     public boolean isMatch(String s, String p) {
         int n = s.length();

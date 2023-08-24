@@ -20,6 +20,7 @@
 
 
 # Solution from Copilot (incorrect)
+# Big O time complexity: O(n)
 class Solution(object):
     def longestValidParentheses(self, s):
         """
@@ -44,6 +45,7 @@ class Solution(object):
 
 
 # Solution from ChatGPT (correct)
+# Big O time complexity: O(n)
 class Solution(object):
     def longestValidParentheses(self, s):
         """

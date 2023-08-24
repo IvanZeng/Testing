@@ -16,6 +16,7 @@
 
 
 # Solution from Copilot (correct)
+# Big O time complexity: O(log n)
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
@@ -57,6 +58,7 @@ class Solution(object):
 
 
 # Solution from ChatGPT (incorrect)
+# Big O time complexity: O(log n)
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """

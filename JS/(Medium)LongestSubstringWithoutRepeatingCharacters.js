@@ -27,6 +27,7 @@
 
 
 // Solution from Copilot (correct)
+// Big O time complexity: O(n)
 var lengthOfLongestSubstring = function(s) {
     let map = new Map();
     let max = 0;
@@ -44,6 +45,7 @@ var lengthOfLongestSubstring = function(s) {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity: O(n)
 var lengthOfLongestSubstring = function(s) {
     let charSet = new Set();
     let maxLength = 0;

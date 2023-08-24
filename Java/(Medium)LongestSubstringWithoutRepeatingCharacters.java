@@ -22,6 +22,7 @@
 
 
 //Solution from Copilot (correct)
+//Big O time complexity O(n)
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
@@ -44,6 +45,7 @@ class Solution {
 
 
 //Solution from ChatGPT (correct)
+//Big O time complexity O(n)
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();

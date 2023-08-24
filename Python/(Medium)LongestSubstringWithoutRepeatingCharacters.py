@@ -21,6 +21,7 @@
 # Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 # Solution from Copilot (correct)
+# Big O time complexity: O(n)
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -45,6 +46,7 @@ class Solution(object):
 
 
 # Solution from ChatGPT (correct)
+# Big O time complexity: O(n)
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """

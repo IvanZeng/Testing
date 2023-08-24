@@ -27,6 +27,7 @@
 
 
 // Solution from Copilot (correct)
+// Big O time complexity: O(n)
 var twoSum = function(nums, target) {
     let map = new Map();
     for (let i = 0; i < nums.length; i++) {
@@ -40,6 +41,7 @@ var twoSum = function(nums, target) {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity: O(n)
 var twoSum = function(nums, target) {
     const map = new Map();
     for (let i = 0; i < nums.length; i++) {

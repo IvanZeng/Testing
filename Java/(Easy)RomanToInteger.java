@@ -22,6 +22,7 @@
 
 
 //Solution from Copilot (correct)
+//Big O time complexity O(n)
 class Solution {
     public int romanToInt(String s) {
         int result = 0;
@@ -68,6 +69,7 @@ class Solution {
 
 
 //Solution from ChatGPT (correct)
+//Big O time complexity O(n)
 class Solution {
     public int romanToInt(String s) {
         // Initialize a hashmap to store the values of each Roman numeral

@@ -23,6 +23,7 @@
 
 
 // Solution from Copilot (correct)
+// Big O time complexity: O(n)
 var reverse = function(x) {
     let rev = 0;
     let num = x;
@@ -39,6 +40,7 @@ var reverse = function(x) {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity: O(n)
 var reverse = function(x) {
     let reversed = 0;
     const isNegative = x < 0;

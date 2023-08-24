@@ -18,6 +18,7 @@
 
 
 # Solution from Copilot (correct)
+# Big O time complexity: O(log n)
 class Solution(object):
     def reverse(self, x):
         """
@@ -35,6 +36,7 @@ class Solution(object):
 
 
 # Solution from ChatGPT (correct)
+# Big O time complexity: O(log n)
 class Solution(object):
     def reverse(self, x):
         """

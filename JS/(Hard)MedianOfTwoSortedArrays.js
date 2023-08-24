@@ -24,6 +24,7 @@
 
 
 // Solution from Copilot (correct)
+// Big O time complexity: O(logn)
 var findMedianSortedArrays = function(nums1, nums2) {
     let n1 = nums1.length;
     let n2 = nums2.length;
@@ -57,12 +58,13 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity: O(logn)
 var findMedianSortedArrays = function(nums1, nums2) {
     const m = nums1.length;
     const n = nums2.length;
 
     if (m > n) {
-        return findMedianSortedArrays(nums2, nums1); // Ensure nums1 is shorter
+        return findMedianSortedArrays(nums2, nums1);
     }
 
     let low = 0;

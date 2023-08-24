@@ -20,6 +20,7 @@
 
 
 // Solution from Copilot (correct)
+// Big O time complexity O(nlogn)
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] nums3 = new int[nums1.length + nums2.length];
@@ -41,6 +42,7 @@ class Solution {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity O(logn)
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;

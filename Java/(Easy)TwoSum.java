@@ -22,6 +22,7 @@
 
 
 //Solution from Copilot (correct)
+//Big O time complexity O(n^2)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
@@ -38,6 +39,7 @@ class Solution {
 }
 
 //Solution from ChatGPT (correct)
+//Big O time complexity O(n)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> numToIndex = new HashMap<>();

@@ -19,6 +19,7 @@
 
 
 //Solution from Copilot (correct)
+//Big O time complexity O(n)
 class Solution {
     public int longestValidParentheses(String s) {
         int maxans = 0;
@@ -43,6 +44,7 @@ class Solution {
 
 
 //Solution from ChatGPT (correct)
+//Big O time complexity O(n)
 class Solution {
     public int longestValidParentheses(String s) {
         int n = s.length();

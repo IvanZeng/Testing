@@ -25,6 +25,7 @@
  */
 
 // Solution from Copilot (correct)
+// Big O time complexity: O(n)
 var romanToInt = function(s) {
     let map = {
         I: 1,
@@ -49,6 +50,7 @@ var romanToInt = function(s) {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity: O(n)
 var romanToInt = function(s) {
     const romanToIntMap = {
         'I': 1,

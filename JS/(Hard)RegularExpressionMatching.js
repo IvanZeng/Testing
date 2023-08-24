@@ -31,6 +31,7 @@
 
 
 // Solution from Copilot (correct)
+// Big O time complexity: O(n)
 var isMatch = function(s, p) {
     if (p.length == 0) return s.length == 0;
     let first_match = (s.length > 0 && (p[0] == s[0] || p[0] == '.'));
@@ -44,6 +45,7 @@ var isMatch = function(s, p) {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity:  O(n^2)
 var isMatch = function(s, p) {
     const dp = Array(s.length + 1).fill().map(() => Array(p.length + 1).fill(false));
 

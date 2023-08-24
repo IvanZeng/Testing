@@ -18,6 +18,7 @@
 
 
 //Solution from Copilot (correct)
+//Big O time complexity O(n)
 class Solution {
     public int reverse(int x) {
         int result = 0;
@@ -35,6 +36,7 @@ class Solution {
 
 
 //Solution from ChatGPT (correct)
+//Big O time complexity O(n)
 class Solution {
     public int reverse(int x) {
         int reversed = 0;

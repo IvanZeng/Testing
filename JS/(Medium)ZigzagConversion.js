@@ -37,6 +37,7 @@
 
 
 // Solution from Copilot (correct)
+// Big O time complexity: O(n)
 var convert = function(s, numRows) {
     if (numRows === 1) return s;
     let rows = [];
@@ -58,6 +59,7 @@ var convert = function(s, numRows) {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity: O(n)
 var convert = function(s, numRows) {
     if (numRows === 1) {
       return s;

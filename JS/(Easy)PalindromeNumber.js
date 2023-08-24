@@ -24,6 +24,7 @@
 
 
 //Solution from Copilot (correct)
+// Big O time complexity: O(n)
 var isPalindrome = function(x) {
     if(x < 0){
         return false;
@@ -41,6 +42,7 @@ var isPalindrome = function(x) {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity: O(n)
 var isPalindrome = function(x) {
     if (x < 0) { 
         return false;

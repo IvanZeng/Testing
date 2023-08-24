@@ -23,6 +23,7 @@
 
 
 // Solution from Copilot (correct)
+// Big O time complexity: O(n)
 var longestValidParentheses = function(s) {
     let stack = [-1];
     let max = 0;
@@ -44,6 +45,7 @@ var longestValidParentheses = function(s) {
 
 
 // Solution from ChatGPT (correct)
+// Big O time complexity: O(n)
 var longestValidParentheses = function(s) {
     const stack = [-1];
     let maxLength = 0;

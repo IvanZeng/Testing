@@ -23,6 +23,7 @@
 
 
 # Solution from Copilot (correct)
+# Big O time complexity: O(2^n)
 class Solution(object):
     def isMatch(self, s, p):
         """
@@ -42,6 +43,7 @@ class Solution(object):
 
 
 # Solution from ChatGPT (correct)
+# Big O time complexity: O(n^2)
 class Solution(object):
     def isMatch(self, s, p):
         """
